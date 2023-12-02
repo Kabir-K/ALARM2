@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ALARM\nBULANCE</string>
+    <string name="EDAI">ALARM\nBULANCE</string>
+    <string name="signin">Sign In</string>
+    <string name="signup">Sign Up</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="sign_in_description_text">Please enter email and password.</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="sign_up_description_text">Please enter name, email and password to register with us.</string>
+    <string name="name">name</string>
+    <string name="imagenavdescription">user</string>
+    <string name="navmyprofile">My Profile</string>
+    <string name="signout">Sign Out</string>
+    <string name="mobile">mobile</string>
+</resources>

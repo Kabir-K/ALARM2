@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "979450956774",
+    "project_id": "alarm-dd511",
+    "storage_bucket": "alarm-dd511.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979450956774:android:c82589c044885b0c5e2427",
+        "android_client_info": {
+          "package_name": "com.example.wwww"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCujaIcngau3c0rVmvCbWg823emZRjifw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
