@@ -15,12 +15,14 @@ class profilescreen : baseactivity() {
     var b:EditText?=null
     var c:EditText?=null
     var d:EditText?=null
+    var profileuid:EditText?=null
     var buttonupdate:Button?=null
     private lateinit var muserdetails:User
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_profilescreen)
         a=findViewById(R.id.profiletoolbar)
+        profileuid=findViewById(R.id.profileuid)
         b=findViewById(R.id.profilename)
         c=findViewById(R.id.profileemail)
         d=findViewById(R.id.profilemobile)
@@ -57,8 +59,10 @@ class profilescreen : baseactivity() {
         }
 
     }
+
     fun setuserdatainui(user:User){
         muserdetails=user
+        profileuid?.setText(user.id)
         b?.setText(user.name)
         c?.setText(user.email)
         if(user.mobile!=0L){

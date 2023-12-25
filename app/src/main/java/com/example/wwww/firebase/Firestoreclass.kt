@@ -49,6 +49,14 @@ class firestoreclass {
                 Toast.makeText(activity,"NO",Toast.LENGTH_LONG).show()
             }
     }
+    fun addanewconnection(activity: MainActivity,userhashmap: HashMap<String, Any>){
+        mfirestore.collection(Constant.USERS)
+            .document(getcurrentuserid())
+            .update(userhashmap)
+            .addOnSuccessListener {
+                Toast.makeText(activity,"ZZZZ",Toast.LENGTH_LONG).show()
+            }
+    }
     fun getcurrentuserid():String{
         var currentuser=FirebaseAuth.getInstance().currentUser
         var currentuserid=""
